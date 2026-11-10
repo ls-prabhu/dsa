@@ -1,6 +1,6 @@
 class Queue<T> {
     int front = 0, rear = -1;
-    T q[] = (T[]) new Object[5];
+    private Object[] q = new Object[5];
 
     void enqueue(T x) {
         if (rear == 4)
